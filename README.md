@@ -15,7 +15,7 @@ Employees can **create records** with `name` , `image` , and `category` . Manage
 
 Managers can **delete any record** created by their employees, while employees can **update and delete their records**. The database tables should be created using **migrations,** and the role names should be `manager` and `employee` .
 
-> The technical requirements include **PHP 7.4+**, **Laravel 8+**, **MySQL 8**, and **queues with a database driver**. Useful Laravel features for this project include **middleware**, **HTTP requests**, **notifications**, **queues**, **Eloquent ORM**, **database pagination**, **migrations**, and **seeding**.
+> The technical requirements include **PHP 7.4+**, **Laravel 8+**, **MySQL 8**, and **queues with a database driver**. Useful Laravel features for this project include **middleware**, **HTTP requests**, **notifications**, **queues**, **Eloquent ORM**, **database pagination**, **migrations**, **seeding**, and **listener**.
 
 * * *
 
@@ -48,6 +48,16 @@ Managers can **delete any record** created by their employees, while employees c
 *   `image`
 *   `category`
 
+*categories as follows:*
+
+`Full-time,
+Part-time,
+Contract,
+Independent contractor,
+Temporary,
+On-call,
+Volunteer`
+
 > 💡 The list of categories must be filled in the Seeder.
 
 - [ ]     Once created, an employee can see a list of all `records` they have created, but cannot see records other employees have created.
@@ -61,7 +71,7 @@ Managers can **delete any record** created by their employees, while employees c
 - [ ]     An employee can update and delete any of their records.
 
 > ❗ Database tables must be created using `migration`.  
-> 👉 Role names - `manager`, `employer`.
+> 👉 Role names - `manager`, `employee`.
 
 ## Technical requirements:
 
