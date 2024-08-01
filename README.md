@@ -75,9 +75,9 @@ Volunteer`
 
 ## Technical requirements:
 
-*   PHP 7.4+
-*   Laravel 8+
-*   Mysql 8
+*   PHP 8.1+
+*   Laravel 9+
+*   MySQL 8
 *   Queues - database
 
 ### DB Schemes
