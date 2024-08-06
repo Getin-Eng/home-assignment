@@ -1,11 +1,28 @@
-# Assigment router
+# Home Assignment - Onboarding week
 
-- If you're a Backend Developer please do [1](#1)
-- If you're a Frontend Developer please do [2](#2)
-- If you're a Full Stack Developer please do [1](#1) + [2](#2)
-  
-# PHP Home Assignment - Backend Engineer position
 Yet another REST, CRUD Home assignment 💼🕴️
+
+## ☝️ Assignment router by role
+
+- If you're a Backend Developer, please do [PHP Home Assignment](#php-home-assignment---backend-engineer-position)
+- If you're a Frontend Developer, please do [Angular 8+ Home Assignment](#angular-8-home-assignment---frontend-engineer-position)
+- If you're a Full Stack Developer, please do [PHP Home Assignment](#php-home-assignment---backend-engineer-position) + [Angular 8+ Home Assignment](#angular-8-home-assignment---frontend-engineer-position)
+
+## 🕐 Time considerations 
+
+Please plan your time according to the following:
+
+- If you're a Backend Developer, it should take 3-4 hours.
+- If you're a Frontend Developer, it should take 3-4 hours.
+- If you're a Full Stack Developer, it should take 8-10 hours.
+
+## Communicate your progress and questions at all time
+
+Report your progress and your submission on [#rnd-onboarding](https://getin-xyz.slack.com/archives/C07DZ3K4FEW)
+
+---
+
+# 🐘 PHP Home Assignment - Backend Engineer position
 
 > **tl;dr**☝️ **-** Need to create a REST API **without a frontend**. For employee/manager Admin panel inventory with notifications & access control
 
@@ -105,9 +122,13 @@ Volunteer`
 *   Database: Pagination
 *   Database: Migrations
 *   Database: Seeding
-*   
+   
+---
 
-# Angular 8+ Home Assignment - Frontend Engineer Position
+# 🛡️ Angular 8+ Home Assignment - Frontend Engineer Position
+
+> **tl;dr**☝️ **-** Need to create a frontend consuming a REST API **without the building the API**. For employee/manager Admin panel inventory with notifications & access control
+> You can refer to the above task as a reference
 
 ## Task Summary
 
