@@ -4,9 +4,9 @@ Yet another REST, CRUD Home assignment 💼🕴️
 
 ## ☝️ Assignment router by role
 
-- If you're a Backend Developer, please do [PHP Home Assignment](#php-home-assignment---backend-engineer-position)
-- If you're a Frontend Developer, please do [Angular 8+ Home Assignment](#angular-8-home-assignment---frontend-engineer-position)
-- If you're a Full Stack Developer, please do [PHP Home Assignment](#php-home-assignment---backend-engineer-position) + [Angular 8+ Home Assignment](#angular-8-home-assignment---frontend-engineer-position)
+- If you're a Backend Developer, please do [PHP Home Assignment](#-php-home-assignment---backend-engineer-position)
+- If you're a Frontend Developer, please do [Angular 8+ Home Assignment](#%EF%B8%8F-angular-8-home-assignment---frontend-engineer-position)
+- If you're a Full Stack Developer, please do [PHP Home Assignment](#-php-home-assignment---backend-engineer-position) + [Angular 8+ Home Assignment](#%EF%B8%8F-angular-8-home-assignment---frontend-engineer-position)
 
 ## 🕐 Time considerations 
 
