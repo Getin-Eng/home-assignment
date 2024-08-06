@@ -1,3 +1,9 @@
+# Assigment router
+
+- If you're a Backend Developer please do [1](#1)
+- If you're a Frontend Developer please do [2](#2)
+- If you're a Full Stack Developer please do [1](#1) + [2](#2)
+  
 # PHP Home Assignment - Backend Engineer position
 Yet another REST, CRUD Home assignment 💼🕴️
 
@@ -99,3 +105,110 @@ Volunteer`
 *   Database: Pagination
 *   Database: Migrations
 *   Database: Seeding
+*   
+
+# Angular 8+ Home Assignment - Frontend Engineer Position
+
+## Task Summary
+
+Create an Angular 8+ application that consumes the REST API described in the PHP Laravel backend assignment. The application should provide a user interface for managers and employees to interact with the employee management system, including user authentication, record management, and viewing notifications.
+
+## Features
+
+1. User Authentication
+2. User Registration (for managers)
+3. Employee Management (for managers)
+4. Record Management
+5. Notification Display
+
+## Technical Requirements
+
+- Angular 8+
+- TypeScript
+- RxJS for handling asynchronous operations
+- Angular Material or Bootstrap for UI components
+- NgRx for state management (optional, but recommended)
+
+## Tasks
+
+### 1. Authentication and Authorization
+
+- Implement a login page for both managers and employees.
+- Use JWT tokens for authentication and store them securely (e.g., in local storage).
+- Implement an HTTP interceptor to add the JWT token to all API requests.
+- Create a guard to protect routes based on user roles.
+
+### 2. User Registration
+
+- Create a registration page for managers to sign up.
+- Implement form validation for the registration process.
+
+### 3. Dashboard
+
+- Create separate dashboards for managers and employees.
+- Display relevant information and quick access to main features.
+
+### 4. Employee Management (for managers)
+
+- Implement a page to list all employees under the manager.
+- Create a form to add new employees.
+- Display a confirmation message when an employee is successfully added.
+
+### 5. Record Management
+
+- Implement a page to list records with pagination (10 entries per page).
+- Create a form to add new records with fields for name, image upload, and category selection.
+- Implement record editing and deletion functionality.
+- For managers, show the author of each record and provide a way to view all records of a specific employee.
+
+### 6. Category Management
+
+- Create a dropdown or select component for choosing record categories.
+- Populate the categories from the API (seeded data from the backend).
+
+### 7. Notifications
+
+- Implement a notification component to display system messages (e.g., successful record creation).
+- Create a notification page or modal to show all notifications for the user.
+
+### 8. Routing
+
+- Implement proper routing for all pages and components.
+- Use route guards to protect routes based on user roles.
+
+### 9. Error Handling
+
+- Implement error handling for API requests and display appropriate error messages to users.
+
+### 10. Responsive Design
+
+- Ensure the application is responsive and works well on both desktop and mobile devices.
+
+## Bonus Tasks
+
+1. Implement NgRx for state management.
+2. Add unit tests for components and services.
+3. Implement a real-time notification system using WebSockets.
+
+## Considerations
+
+- The task should take approximately 4-6 hours.
+- Focus on clean code, proper component structure, and adherence to Angular best practices.
+- Use TypeScript features effectively, including strong typing and interfaces.
+- Implement proper error handling and loading states for asynchronous operations.
+- Consider using Angular's reactive forms for complex form management.
+
+## Deliverables
+
+1. Source code of the Angular application.
+2. README file with instructions on how to set up and run the application.
+3. Any additional documentation explaining your design decisions or notable features.
+
+## Evaluation Criteria
+
+- Code quality and organization
+- Proper use of Angular features and best practices
+- User interface design and usability
+- Error handling and edge case management
+- Responsive design implementation
+- Bonus points for additional features or optimizations
